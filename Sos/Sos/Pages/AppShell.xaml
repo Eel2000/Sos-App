@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Shell xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:views="clr-namespace:Sos.Pages"
+             mc:Ignorable="d"
+             BackgroundColor="DarkRed"
+             Title="S.O.S"
+             FlyoutBackgroundColor="DarkRed"
+             x:Class="Sos.Pages.AppShell">
+
+    <Shell.FlyoutHeader>
+        <ContentPage>
+            <Grid HeightRequest="50">
+                <Label Text="SOS" HorizontalOptions="CenterAndExpand"
+                   VerticalOptions="Center" FontSize="Caption"/>
+            </Grid>
+        </ContentPage>
+    </Shell.FlyoutHeader>
+
+    <FlyoutItem Title="Urgence">
+        <Tab>
+            <ShellContent>
+                <views:Home/>
+            </ShellContent>
+        </Tab>
+    </FlyoutItem>
+
+    <FlyoutItem Title="Abonnement">
+        <Tab>
+            <ShellContent>
+                <views:Abonnement/>
+            </ShellContent>
+        </Tab>
+    </FlyoutItem>
+
+    <FlyoutItem Title="FeedBack">
+        <Tab>
+            <ShellContent>
+                <views:FeedBack/>
+            </ShellContent>
+        </Tab>
+    </FlyoutItem>
+
+    <FlyoutItem Title="About">
+        <Tab>
+            <ShellContent>
+                <views:About/>
+            </ShellContent>
+        </Tab>
+    </FlyoutItem>
+    
+</Shell>

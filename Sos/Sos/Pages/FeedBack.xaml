@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Sos.Pages.FeedBack" Title="FeedBack">
+
+   
+
+       <ScrollView>
+             <StackLayout VerticalOptions="CenterAndExpand" Padding="15">
+            <!--<StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="Center" Padding="40">-->
+            <Entry x:Name="txt_email" Placeholder="Entrez votre Adresse E-mail" Keyboard="Email"/>
+
+            <!--<StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="Center" Padding="10">
+           
+        </StackLayout>-->
+            <Entry x:Name="txt_email" Placeholder="Aidez-nous a ameliorer" HeightRequest="100"
+                   Keyboard="Default" WidthRequest="750"/>
+
+            <StackLayout Padding="40">
+                <Button x:Name="btn_send_feedBack" CornerRadius="5" Text="Envoyer" BackgroundColor="#00a8d5" TextColor="White"/>
+            </StackLayout>
+            <StackLayout VerticalOptions="EndAndExpand">
+                <Label Text="cette page est pour ceux qui veulent
+                       donner leur avis sur le produit ou suggerer des ameliorations"/>
+            </StackLayout>
+        </StackLayout>
+      </ScrollView>
+  
+ 
+    
+</ContentPage>

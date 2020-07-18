@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             BackgroundColor="DarkRed"   
+             x:Class="Sos.Pages.Home">
+    <ContentPage.Content>
+        <StackLayout>
+            <Button x:Name="BtnAlert" HorizontalOptions="Center" VerticalOptions="CenterAndExpand"
+                    CornerRadius="90" BackgroundColor="White" Text="S.O.S" TextColor="Black" BorderColor="Black"
+                    HeightRequest="150" WidthRequest="150" FontAttributes="Bold" FontSize="Medium" BorderWidth="2" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
