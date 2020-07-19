@@ -15,6 +15,19 @@ namespace Sos.Pages
         public Abonnement()
         {
             InitializeComponent();
+          
+        }
+
+        private void Tlb_Cancel_Clicked(object sender, EventArgs e)
+        {
+            this.txt_firstname.Text = "";
+            this.txt_lastname.Text = "";
+            this.txt_age.Text = "";
+        }
+
+        private async void Tlb_save_Clicked(object sender, EventArgs e)
+        {
+            await DisplayAlert("Information", "Abonnement effectué avec succes!", "Ok");
         }
     }
 }

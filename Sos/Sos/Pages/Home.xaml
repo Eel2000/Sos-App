@@ -4,13 +4,13 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             BackgroundColor="DarkRed"   
-             x:Class="Sos.Pages.Home">
+             BackgroundColor="White"   
+             x:Class="Sos.Pages.Home" Title="S.O.S">
     <ContentPage.Content>
         <StackLayout>
             <Button x:Name="BtnAlert" HorizontalOptions="Center" VerticalOptions="CenterAndExpand"
-                    CornerRadius="90" BackgroundColor="White" Text="S.O.S" TextColor="Black" BorderColor="Black"
-                    HeightRequest="150" WidthRequest="150" FontAttributes="Bold" FontSize="Medium" BorderWidth="2" />
+                    CornerRadius="90" BackgroundColor="DarkRed" Text="S.O.S" TextColor="White"
+                    HeightRequest="150" WidthRequest="150" FontAttributes="Bold" FontSize="Medium" BorderWidth="4" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

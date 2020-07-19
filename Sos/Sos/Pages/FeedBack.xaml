@@ -16,7 +16,7 @@
             <!--<StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="Center" Padding="10">
            
         </StackLayout>-->
-            <Entry x:Name="txt_email" Placeholder="Aidez-nous a ameliorer" HeightRequest="100"
+            <Entry x:Name="txt_Sugestion" Placeholder="Aidez-nous a ameliorer" HeightRequest="100"
                    Keyboard="Default" WidthRequest="750"/>
 
             <StackLayout Padding="40">
