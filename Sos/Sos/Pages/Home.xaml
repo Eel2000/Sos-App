@@ -9,7 +9,7 @@
     <ContentPage.Content>
         <StackLayout>
             <Button x:Name="BtnAlert" HorizontalOptions="Center" VerticalOptions="CenterAndExpand"
-                    CornerRadius="90" BackgroundColor="DarkRed" Text="S.O.S" TextColor="White"
+                    CornerRadius="90" BackgroundColor="MediumPurple" Text="S.O.S" TextColor="White"
                     HeightRequest="150" WidthRequest="150" FontAttributes="Bold" FontSize="Medium" BorderWidth="4" />
         </StackLayout>
     </ContentPage.Content>

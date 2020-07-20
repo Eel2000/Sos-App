@@ -20,7 +20,7 @@
                    Keyboard="Default" WidthRequest="750"/>
 
             <StackLayout Padding="40">
-                <Button x:Name="btn_send_feedBack" CornerRadius="5" Text="Envoyer" BackgroundColor="#00a8d5" TextColor="White"/>
+                <Button x:Name="btn_send_feedBack" CornerRadius="5" Text="Envoyer" BackgroundColor="MediumPurple" TextColor="White"/>
             </StackLayout>
             <StackLayout VerticalOptions="EndAndExpand">
                 <Label Text="cette page est pour ceux qui veulent

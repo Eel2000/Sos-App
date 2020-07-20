@@ -25,16 +25,16 @@
 
             <!--Entry's-->
             <StackLayout Padding="30">
-                    <Label Text="Prenom" TextColor="DarkRed" FontSize="Subtitle" FontFamily="Arial Black"/>
+                <Label Text="Prenom" TextColor="#00a8d5" FontSize="20" FontFamily="Arial Black"/>
                     <Entry x:Name="txt_firstname" Placeholder="Votre Prenom"/>
             </StackLayout>
             <StackLayout Padding="30" Grid.Row="1">
-                    <Label Text="Nom et Post-Nom" TextColor="DarkRed"/>
+                <Label Text="Nom et Post-Nom" TextColor="#00a8d5" FontSize="20"/>
                     <Entry x:Name="txt_lastname" Placeholder="Votre Nom et Post-nom" />
             </StackLayout>
 
             <StackLayout VerticalOptions="Start" HorizontalOptions="Start" Padding="60" Grid.Row="3" >
-                <Label Text="Sexe" TextColor="DarkRed"/>
+                <Label Text="Sexe" TextColor="#00a8d5" FontSize="20"/>
                 <combobox:SfComboBox HeightRequest="40" x:Name="comboBox" MaximumDropDownHeight="200" IsEditableMode="false" SuggestionBoxPlacement="Top">
                     <combobox:SfComboBox.ComboBoxSource>
                         <ListCollection:List x:TypeArguments="x:String">
@@ -47,7 +47,7 @@
             </StackLayout>
 
             <StackLayout VerticalOptions="Start" HorizontalOptions="Start" Padding="60" Grid.Row="4">
-                <Label Text="Hopital" TextColor="DarkRed"/>
+                <Label Text="Hopital" TextColor="#00a8d5" FontSize="20"/>
             <combobox:SfComboBox HeightRequest="40" x:Name="comboBox2" MaximumDropDownHeight="200" IsEditableMode="false" SuggestionBoxPlacement="Bottom">
                 <combobox:SfComboBox.ComboBoxSource>
                     <ListCollection:List x:TypeArguments="x:String">
@@ -87,7 +87,7 @@
 
             <StackLayout HorizontalOptions="StartAndExpand" Grid.Row="2" Padding="60" Orientation="Horizontal">
                 <Entry x:Name="txt_age" Placeholder="Votre age"/>
-                <Label Text="ans" TextColor="DarkRed"/>
+                <Label Text="ans" TextColor="#00a8d5" FontSize="20"/>
             </StackLayout>
 
         </Grid>
