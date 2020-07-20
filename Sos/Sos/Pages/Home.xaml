@@ -3,14 +3,29 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:buttons="clr-namespace:Syncfusion.XForms.Buttons;assembly=Syncfusion.Buttons.XForms"
              mc:Ignorable="d"
              BackgroundColor="White"   
              x:Class="Sos.Pages.Home" Title="S.O.S">
     <ContentPage.Content>
         <StackLayout>
-            <Button x:Name="BtnAlert" HorizontalOptions="Center" VerticalOptions="CenterAndExpand"
+            <!--<Button x:Name="BtnAlert" HorizontalOptions="Center" VerticalOptions="CenterAndExpand"
                     CornerRadius="90" BackgroundColor="MediumPurple" Text="S.O.S" TextColor="White"
-                    HeightRequest="150" WidthRequest="150" FontAttributes="Bold" FontSize="Medium" BorderWidth="4" />
+                    HeightRequest="150" WidthRequest="150" FontAttributes="Bold" FontSize="Medium" BorderWidth="4" />-->
+            <buttons:SfButton
+                                     HeightRequest="200"
+                                     WidthRequest="200"
+                                     VerticalOptions="CenterAndExpand"
+                                     HorizontalOptions="Center"
+                                     CornerRadius="100"
+                                     HasShadow="True"
+                                     BorderWidth="2"
+                                     BorderColor="LightGray" ShadowColor="#e6e6fa"
+                                     BackgroundColor="MediumPurple"
+                                     ShowIcon="True"
+                                     ImageAlignment="End"
+                                     Text="S.O.S" FontSize="25" x:Name="BtnAlert" Clicked="BtnAlert_Clicked"
+                />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

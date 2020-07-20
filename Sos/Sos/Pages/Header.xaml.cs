@@ -10,16 +10,11 @@ using Xamarin.Forms.Xaml;
 namespace Sos.Pages
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class Home : ContentPage
+    public partial class Header : ContentPage
     {
-        public Home()
+        public Header()
         {
             InitializeComponent();
-        }
-
-        private async void BtnAlert_Clicked(object sender, EventArgs e)
-        {
-            await DisplayAlert(null, "Votre alerte santé a été envoyé!", "Ok");
         }
     }
 }

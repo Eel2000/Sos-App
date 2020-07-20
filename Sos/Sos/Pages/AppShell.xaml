@@ -11,12 +11,11 @@
              x:Class="Sos.Pages.AppShell">
 
     <Shell.FlyoutHeader>
-        <ContentPage>
-            <Grid HeightRequest="50">
-                <Label Text="SOS" HorizontalOptions="CenterAndExpand"
-                   VerticalOptions="Center" FontSize="Caption"/>
-            </Grid>
-        </ContentPage>
+        <StackLayout HeightRequest="250" BackgroundColor="#38103b">
+            <Label VerticalOptions="CenterAndExpand" HorizontalOptions="Center"
+                   TextColor="White" FontSize="Title" FontFamily="Arial" FontAttributes="Bold"
+                   Text="Urgence Santé"/>
+        </StackLayout>
     </Shell.FlyoutHeader>
 
     <FlyoutItem Title="Urgence">
